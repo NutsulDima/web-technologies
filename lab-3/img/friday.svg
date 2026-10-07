@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f39c12"/><stop offset="1" stop-color="#5b8def"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="128.09920170500268" cy="116.75172551612789" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="236.14472137675443" cy="96.10794488221542" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="308.0455196717518" cy="179.35621936608746" r="46" fill="#fff" fill-opacity="0.18"/><circle cx="271.90079829499734" cy="283.24827448387214" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="163.85527862324568" cy="303.8920551177846" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="91.9544803282482" cy="220.64378063391237" r="46" fill="#fff" fill-opacity="0.18"/>
+  <circle cx="200" cy="200" r="70" fill="#fff" fill-opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">П'ятниця</text>
+</svg>

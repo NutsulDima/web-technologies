@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e76f51"/><stop offset="1" stop-color="#3d9970"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="305.6187315315403" cy="169.26429519811816" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="279.42726692741917" cy="276.10065222086143" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="173.80853539587898" cy="306.8363570227433" r="46" fill="#fff" fill-opacity="0.18"/><circle cx="94.38126846845974" cy="230.73570480188187" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="120.57273307258073" cy="123.89934777913865" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="226.1914646041212" cy="93.16364297725671" r="46" fill="#fff" fill-opacity="0.18"/>
+  <circle cx="200" cy="200" r="70" fill="#fff" fill-opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">Неділя</text>
+</svg>

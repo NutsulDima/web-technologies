@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d9970"/><stop offset="1" stop-color="#2a9d8f"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="154.22384797981434" cy="300.022716950825" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="90.48971015495235" cy="210.3680479384334" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="136.26586217513795" cy="110.34533098760842" r="46" fill="#fff" fill-opacity="0.18"/><circle cx="245.77615202018566" cy="99.97728304917501" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="309.5102898450476" cy="189.63195206156658" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="263.734137824862" cy="289.65466901239165" r="46" fill="#fff" fill-opacity="0.18"/>
+  <circle cx="200" cy="200" r="70" fill="#fff" fill-opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">Середа</text>
+</svg>

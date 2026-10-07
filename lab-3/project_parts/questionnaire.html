@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Завдання 4. Анкета</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+    form { display: inline-block; text-align: left; width: 560px; max-width: 100%; }
+    fieldset { margin-bottom: 16px; padding: 12px 16px; }
+    legend { font-weight: bold; }
+    .row { margin: 8px 0; }
+    .row > label:first-child { display: block; margin-bottom: 3px; }
+    input[type=text], input[type=password], input[type=email], input[type=tel],
+    input[type=date], textarea, select, input[list] { width: 100%; box-sizing: border-box; padding: 6px; }
+    .inline { display: inline-block; margin-right: 14px; }
+  </style>
+</head>
+<body>
+  <p><a href="../index.html">Повернутись на головну</a></p>
+  <h1>Анкета студента</h1>
+
+  <form id="questionnaire" action="questionnaire.html" method="get">
+
+    <fieldset>
+      <legend>Особисті дані</legend>
+      <div class="row">
+        <label for="fullname">ПІБ *</label>
+        <input type="text" id="fullname" name="fullname" value="" placeholder="Прізвище Ім'я По батькові" required tabindex="1">
+      </div>
+      <div class="row">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" value="" placeholder="name@example.com"
+               pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+               title="Введіть коректну адресу, наприклад name@example.com"
+               autocomplete="off" required tabindex="2">
+      </div>
+      <div class="row">
+        <label for="phone">Мобільний номер *</label>
+        <input type="tel" id="phone" name="phone" value="" placeholder="+380XXXXXXXXX"
+               pattern="\+380[0-9]{9}" title="Формат: +380XXXXXXXXX" required tabindex="3">
+      </div>
+      <div class="row">
+        <label for="password">Пароль *</label>
+        <input type="password" id="password" name="password" value="" placeholder="6 символів: A-Z, a-z, 0-9"
+               pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{6}"
+               title="Рівно 6 символів: хоча б одна велика літера, одна мала літера та одна цифра"
+               required tabindex="4">
+      </div>
+      <div class="row">
+        <label for="birthdate">Дата народження</label>
+        <input type="date" id="birthdate" name="birthdate" value="" tabindex="5">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Навчання</legend>
+      <div class="row">
+        <span>Форма навчання</span><br>
+        <input type="radio" id="form-day" name="study_form" value="day" tabindex="6">
+        <label for="form-day" class="inline">Денна</label>
+        <input type="radio" id="form-evening" name="study_form" value="evening" tabindex="7">
+        <label for="form-evening" class="inline">Вечірня</label>
+        <input type="radio" id="form-extramural" name="study_form" value="extramural" tabindex="8">
+        <label for="form-extramural" class="inline">Заочна</label>
+      </div>
+      <div class="row">
+        <span>Рівень знання HTML</span><br>
+        <input type="radio" id="lvl-beginner" name="html_level" value="beginner" tabindex="9">
+        <label for="lvl-beginner" class="inline">Початковий</label>
+        <input type="radio" id="lvl-middle" name="html_level" value="middle" checked tabindex="10">
+        <label for="lvl-middle" class="inline">Середній</label>
+        <input type="radio" id="lvl-advanced" name="html_level" value="advanced" tabindex="11">
+        <label for="lvl-advanced" class="inline">Просунутий</label>
+      </div>
+      <div class="row">
+        <label for="course">Курс</label>
+        <select id="course" name="course" tabindex="12">
+          <option value="1">1 курс</option>
+          <option value="2">2 курс</option>
+          <option value="3" selected>3 курс</option>
+          <option value="4">4 курс</option>
+          <option value="5">5 курс</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="city">Місто проживання</label>
+        <input type="text" id="city" name="city" value="" list="cities" placeholder="Почніть вводити назву" tabindex="13">
+        <datalist id="cities">
+          <option value="Чернівці"></option>
+          <option value="Київ"></option>
+          <option value="Львів"></option>
+          <option value="Одеса"></option>
+          <option value="Харків"></option>
+          <option value="Дніпро"></option>
+        </datalist>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Інтереси та навички</legend>
+      <div class="row">
+        <span>Інтереси</span><br>
+        <input type="checkbox" id="int-prog" name="interests" value="programming" tabindex="14">
+        <label for="int-prog" class="inline">Програмування</label>
+        <input type="checkbox" id="int-design" name="interests" value="design" tabindex="15">
+        <label for="int-design" class="inline">Дизайн</label>
+        <input type="checkbox" id="int-games" name="interests" value="games" tabindex="16">
+        <label for="int-games" class="inline">Ігри</label>
+        <input type="checkbox" id="int-music" name="interests" value="music" tabindex="17">
+        <label for="int-music" class="inline">Музика</label>
+      </div>
+      <div class="row">
+        <label for="languages">Мови програмування (Ctrl + клік для вибору кількох)</label>
+        <select id="languages" name="languages" multiple size="6" tabindex="18">
+          <option value="c">C</option>
+          <option value="cpp">C++</option>
+          <option value="python">Python</option>
+          <option value="java">Java</option>
+          <option value="js">JavaScript</option>
+          <option value="csharp">C#</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="technology">Улюблена технологія</label>
+        <select id="technology" name="technology" tabindex="19">
+          <optgroup label="Frontend">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+          </optgroup>
+          <optgroup label="Backend">
+            <option value="nodejs">Node.js</option>
+            <option value="django">Django</option>
+            <option value="spring">Spring</option>
+          </optgroup>
+          <optgroup label="Мобільна розробка">
+            <option value="kotlin">Kotlin</option>
+            <option value="swift">Swift</option>
+            <option value="flutter">Flutter</option>
+          </optgroup>
+          <optgroup label="Бази даних">
+            <option value="mysql">MySQL</option>
+            <option value="postgresql">PostgreSQL</option>
+            <option value="mongodb">MongoDB</option>
+          </optgroup>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Додатково</legend>
+      <div class="row">
+        <label for="about">Про себе</label>
+        <textarea id="about" name="about" rows="4" placeholder="Кілька слів про себе та свої цілі" tabindex="20"></textarea>
+      </div>
+      <div class="row">
+        <label for="audio">Аудіофайли (можна кілька)</label>
+        <input type="file" id="audio" name="audio_files" accept="audio/*" multiple tabindex="21">
+      </div>
+    </fieldset>
+
+    <div>
+      <button type="submit" name="send" value="get" tabindex="22">Надіслати (GET)</button>
+      <button type="submit" name="send" value="post" formmethod="post" formenctype="multipart/form-data" tabindex="23">Надіслати (POST + multipart)</button>
+      <button type="reset" name="clear" value="reset" tabindex="24">Очистити</button>
+    </div>
+  </form>
+
+</body>
+</html>

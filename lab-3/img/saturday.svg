@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a9d8f"/><stop offset="1" stop-color="#e07a5f"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="231.2028404009549" cy="94.51832978705477" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="306.95122623850034" cy="174.2816173509857" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="275.74838583754547" cy="279.76328756393093" r="46" fill="#fff" fill-opacity="0.18"/><circle cx="168.79715959904513" cy="305.48167021294523" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="93.04877376149969" cy="225.71838264901442" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="124.25161416245464" cy="120.23671243606896" r="46" fill="#fff" fill-opacity="0.18"/>
+  <circle cx="200" cy="200" r="70" fill="#fff" fill-opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">Субота</text>
+</svg>

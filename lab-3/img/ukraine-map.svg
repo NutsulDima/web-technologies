@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="550" viewBox="0 0 910 550">
+  <rect width="910" height="550" fill="#f7fbff"/>
+  <rect x="3" y="3" width="124" height="104" rx="8" fill="#cfe8ff" stroke="#345" stroke-width="2"/>
+  <text x="65.0" y="55.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Волинська</text>
+  <text x="65.0" y="73.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="133" y="3" width="124" height="104" rx="8" fill="#ffe3c2" stroke="#345" stroke-width="2"/>
+  <text x="195.0" y="55.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Рівненська</text>
+  <text x="195.0" y="73.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="263" y="3" width="124" height="104" rx="8" fill="#d5f2d0" stroke="#345" stroke-width="2"/>
+  <text x="325.0" y="55.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Житомирська</text>
+  <text x="325.0" y="73.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="393" y="3" width="124" height="104" rx="8" fill="#f5d0e6" stroke="#345" stroke-width="2"/>
+  <text x="455.0" y="55.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Чернігівська</text>
+  <text x="455.0" y="73.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="523" y="3" width="124" height="104" rx="8" fill="#fff3b0" stroke="#345" stroke-width="2"/>
+  <text x="585.0" y="55.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Сумська</text>
+  <text x="585.0" y="73.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="3" y="113" width="124" height="104" rx="8" fill="#d8d0f5" stroke="#345" stroke-width="2"/>
+  <text x="65.0" y="165.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Львівська</text>
+  <text x="65.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="133" y="113" width="124" height="104" rx="8" fill="#cfe8ff" stroke="#345" stroke-width="2"/>
+  <text x="195.0" y="165.0" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#234" text-anchor="middle">Тернопільська</text>
+  <text x="195.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="263" y="113" width="124" height="104" rx="8" fill="#ffe3c2" stroke="#345" stroke-width="2"/>
+  <text x="325.0" y="165.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Хмельницька</text>
+  <text x="325.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="393" y="113" width="124" height="104" rx="8" fill="#d5f2d0" stroke="#345" stroke-width="2"/>
+  <text x="455.0" y="165.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Київська</text>
+  <text x="455.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="523" y="113" width="124" height="104" rx="8" fill="#f5d0e6" stroke="#345" stroke-width="2"/>
+  <text x="585.0" y="165.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Полтавська</text>
+  <text x="585.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="653" y="113" width="124" height="104" rx="8" fill="#fff3b0" stroke="#345" stroke-width="2"/>
+  <text x="715.0" y="165.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Харківська</text>
+  <text x="715.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="783" y="113" width="124" height="104" rx="8" fill="#d8d0f5" stroke="#345" stroke-width="2"/>
+  <text x="845.0" y="165.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Луганська</text>
+  <text x="845.0" y="183.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="3" y="223" width="124" height="104" rx="8" fill="#cfe8ff" stroke="#345" stroke-width="2"/>
+  <text x="65.0" y="275.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Закарпатська</text>
+  <text x="65.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="133" y="223" width="124" height="104" rx="8" fill="#ffe3c2" stroke="#345" stroke-width="2"/>
+  <text x="195.0" y="275.0" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#234" text-anchor="middle">Івано-Франківська</text>
+  <text x="195.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="263" y="223" width="124" height="104" rx="8" fill="#d5f2d0" stroke="#345" stroke-width="2"/>
+  <text x="325.0" y="275.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Вінницька</text>
+  <text x="325.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="393" y="223" width="124" height="104" rx="8" fill="#f5d0e6" stroke="#345" stroke-width="2"/>
+  <text x="455.0" y="275.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Черкаська</text>
+  <text x="455.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="523" y="223" width="124" height="104" rx="8" fill="#fff3b0" stroke="#345" stroke-width="2"/>
+  <text x="585.0" y="275.0" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#234" text-anchor="middle">Кіровоградська</text>
+  <text x="585.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="653" y="223" width="124" height="104" rx="8" fill="#d8d0f5" stroke="#345" stroke-width="2"/>
+  <text x="715.0" y="275.0" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#234" text-anchor="middle">Дніпропетровська</text>
+  <text x="715.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="783" y="223" width="124" height="104" rx="8" fill="#cfe8ff" stroke="#345" stroke-width="2"/>
+  <text x="845.0" y="275.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Донецька</text>
+  <text x="845.0" y="293.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="133" y="333" width="124" height="104" rx="8" fill="#ffe3c2" stroke="#345" stroke-width="2"/>
+  <text x="195.0" y="385.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Чернівецька</text>
+  <text x="195.0" y="403.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="263" y="333" width="124" height="104" rx="8" fill="#d5f2d0" stroke="#345" stroke-width="2"/>
+  <text x="325.0" y="385.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Одеська</text>
+  <text x="325.0" y="403.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="393" y="333" width="124" height="104" rx="8" fill="#f5d0e6" stroke="#345" stroke-width="2"/>
+  <text x="455.0" y="385.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Миколаївська</text>
+  <text x="455.0" y="403.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="523" y="333" width="124" height="104" rx="8" fill="#fff3b0" stroke="#345" stroke-width="2"/>
+  <text x="585.0" y="385.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Херсонська</text>
+  <text x="585.0" y="403.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="653" y="333" width="124" height="104" rx="8" fill="#d8d0f5" stroke="#345" stroke-width="2"/>
+  <text x="715.0" y="385.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">Запорізька</text>
+  <text x="715.0" y="403.0" font-family="Arial, sans-serif" font-size="12" fill="#456" text-anchor="middle">область</text>
+  <rect x="523" y="443" width="124" height="104" rx="8" fill="#cfe8ff" stroke="#345" stroke-width="2"/>
+  <text x="585.0" y="495.0" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#234" text-anchor="middle">АР Крим</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e07a5f"/><stop offset="1" stop-color="#f39c12"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="259.43325364549537" cy="292.5618083288686" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="149.55574938972146" cy="297.7516116509974" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="90.12249574422606" cy="205.1898033221288" r="46" fill="#fff" fill-opacity="0.18"/><circle cx="140.56674635450463" cy="107.43819167113139" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="250.44425061027852" cy="102.24838834900258" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="309.87750425577394" cy="194.81019667787123" r="46" fill="#fff" fill-opacity="0.18"/>
+  <circle cx="200" cy="200" r="70" fill="#fff" fill-opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">Вівторок</text>
+</svg>

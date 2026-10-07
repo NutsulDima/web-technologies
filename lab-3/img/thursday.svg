@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b59b6"/><stop offset="1" stop-color="#e76f51"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="91.10082537395101" cy="215.52320088658539" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="132.1069263711434" cy="113.45214876597655" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="241.00610099719236" cy="97.9289478793911" r="46" fill="#fff" fill-opacity="0.18"/><circle cx="308.899174626049" cy="184.4767991134146" r="34" fill="#fff" fill-opacity="0.18"/><circle cx="267.8930736288566" cy="286.5478512340235" r="40" fill="#fff" fill-opacity="0.18"/><circle cx="158.99389900280747" cy="302.07105212060884" r="46" fill="#fff" fill-opacity="0.18"/>
+  <circle cx="200" cy="200" r="70" fill="#fff" fill-opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">Четвер</text>
+</svg>
