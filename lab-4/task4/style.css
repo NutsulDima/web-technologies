@@ -1,0 +1,59 @@
+/* 1. span всередині p з класом .text-background: курсив, жирність, підкреслення */
+.text-background span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 2. span всередині .text-background, який знаходиться в div: жовтий фон */
+div .text-background span {
+    background-color: yellow;
+}
+
+/* 3. span всередині іншого span: сірий фон, перекреслений текст */
+span span {
+    background-color: gray;
+    text-decoration: line-through;
+}
+
+/* 4. span в span в нумерованому списку: 18px, верхній регістр */
+ol span span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* 5. абзаци — прямі нащадки section: тінь тексту та відступ першого рядка */
+section > p {
+    text-shadow: 3px 3px 5px #1e5eff;
+    text-indent: 50px;
+}
+
+/* 6. ul, що знаходиться безпосередньо в li: маркер-зображення */
+li > ul {
+    list-style-image: url("marker.svg");
+}
+
+/* 7. абзаци з класом .text-background — прямі нащадки div: інтервал між словами */
+div > .text-background {
+    word-spacing: 50px;
+}
+
+/* 8. абзаци — прямі нащадки div з класом .text-bold: жирність */
+.text-bold > p {
+    font-weight: bold;
+}
+
+/* 9. абзаци — прямі нащадки section, який є прямим нащадком div.text-bold: міжрядковий інтервал */
+.text-bold > section > p {
+    line-height: 45px;
+}
+
+/* 10. абзац, який йде одразу після img: коричневий фон */
+img + p {
+    background-color: brown;
+}
+
+/* 11. усі абзаци, що йдуть після section на тому ж рівні: червоний текст */
+section ~ p {
+    color: red;
+}

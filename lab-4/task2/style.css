@@ -1,0 +1,69 @@
+/* Селектор тегу: основний шрифт сторінки */
+body {
+    font-family: "Times New Roman", serif;
+    margin: 20px;
+}
+
+/* Селектор ідентифікатора: рамка навколо всього рецепта */
+#recipe {
+    border: 1px solid #8a8ad6;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+/* Селектори тегів: заголовки */
+h1 {
+    color: #e8161c;
+    font-size: 44px;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Селектор класу: рядки зі списком продуктів */
+.item {
+    font-size: 20px;
+    line-height: 1.25;
+    margin: 0;
+    text-align: center;
+}
+
+/* Селектори тегів: оформлення тексту всередині рядків */
+b {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+u {
+    text-decoration: underline;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+mark {
+    background-color: #ffff40;
+}
+
+/* Селектор тегу: зелена товста лінія */
+hr {
+    width: 60%;
+    height: 8px;
+    border: none;
+    background-color: #1a7f1a;
+    margin: 20px auto;
+}
+
+/* Селектор класу: заключний текст */
+.note {
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
