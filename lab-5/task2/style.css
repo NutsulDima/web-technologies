@@ -1,0 +1,61 @@
+/* Без класів та ідентифікаторів: лише селектори елементів і псевдокласи */
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+th, td {
+    padding: 25px 10px;
+    border: 2px solid white;
+}
+
+thead th {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+thead th:nth-child(1) {
+    width: 25%;
+    font-size: 18px;
+    background-color: #f2dcdb;
+}
+
+thead th:nth-child(2) {
+    background-color: #e6b8b7;
+}
+
+thead th:nth-child(3) {
+    background-color: #d99694;
+}
+
+thead th:nth-child(4) {
+    background-color: #953735;
+}
+
+thead th:nth-child(5) {
+    background-color: #632523;
+}
+
+tbody th {
+    font-size: 26px;
+    font-weight: normal;
+    color: white;
+    background-color: #c0504d;
+}
+
+tbody td {
+    font-size: 24px;
+    color: #404040;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #e6b8b7;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #f2dcdb;
+}
