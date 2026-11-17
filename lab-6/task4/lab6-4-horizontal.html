@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №6. Завдання 4. Горизонтальна навігація</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-top">
+    <nav class="nav-top">
+        <ul class="nav-top-list">
+            <li class="menu-item nav-top-item nav-top-item--active">
+                <a class="nav-top-link" href="#" title="Головна"><span class="material-icons">home</span></a>
+            </li>
+            <li class="menu-item nav-top-item">
+                <a class="nav-top-link" href="#" title="Пошук"><span class="material-icons">search</span></a>
+            </li>
+            <li class="menu-item nav-top-item">
+                <a class="nav-top-link" href="#" title="Пошта"><span class="material-icons">mail</span></a>
+                <ul class="submenu submenu--level-2">
+                    <li class="menu-item"><a class="submenu-link" href="#">Вхідні</a></li>
+                    <li class="menu-item"><a class="submenu-link" href="#">Надіслані</a></li>
+                    <li class="menu-item has-sub">
+                        <a class="submenu-link" href="#">Папки</a>
+                        <ul class="submenu submenu--level-3">
+                            <li class="menu-item"><a class="submenu-link" href="#">Навчання</a></li>
+                            <li class="menu-item"><a class="submenu-link" href="#">Робота</a></li>
+                            <li class="menu-item"><a class="submenu-link" href="#">Особисте</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item nav-top-item">
+                <a class="nav-top-link" href="#" title="Налаштування"><span class="material-icons">settings</span></a>
+                <ul class="submenu submenu--level-2">
+                    <li class="menu-item"><a class="submenu-link" href="#">Загальні</a></li>
+                    <li class="menu-item"><a class="submenu-link" href="#">Безпека</a></li>
+                </ul>
+            </li>
+            <li class="menu-item nav-top-item nav-top-item--right">
+                <a class="nav-top-link" href="#" title="Обліковий запис"><span class="material-icons">person</span></a>
+                <ul class="submenu submenu--level-2">
+                    <li class="menu-item"><a class="submenu-link" href="#">Профіль</a></li>
+                    <li class="menu-item has-sub">
+                        <a class="submenu-link" href="#">Мова</a>
+                        <ul class="submenu submenu--level-3">
+                            <li class="menu-item"><a class="submenu-link" href="#">Українська</a></li>
+                            <li class="menu-item"><a class="submenu-link" href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a class="submenu-link" href="#">Вийти</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-title">Горизонтальна навігація</h1>
+        <p class="hero-text">Прокрутіть сторінку вниз: верхня панель значків залишається на місці (fixed), а панель розділів під шапкою «прилипає» під нею (sticky).</p>
+    </header>
+
+    <nav class="nav-sticky">
+        <ul class="nav-sticky-list">
+            <li class="nav-sticky-item nav-sticky-item--active"><a class="nav-sticky-link" href="#overview">Огляд</a></li>
+            <li class="nav-sticky-item"><a class="nav-sticky-link" href="#features">Можливості</a></li>
+            <li class="nav-sticky-item"><a class="nav-sticky-link" href="#pricing">Ціни</a></li>
+            <li class="nav-sticky-item"><a class="nav-sticky-link" href="#contacts">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section class="content-section" id="overview">
+            <h2 class="content-title">Огляд</h2>
+            <p class="content-text">Позиціонування елементів дозволяє виводити їх із звичайного потоку документа, накладати один на одного та закріплювати у потрібному місці вікна. Саме на цьому будується більшість навігаційних панелей, випадних меню та підказок.</p>
+            <p class="content-text">Значення <code>fixed</code> прив'язує елемент до вікна браузера, <code>absolute</code> — до найближчого позиціонованого предка, а <code>sticky</code> поєднує поведінку звичайного і фіксованого елемента.</p>
+        </section>
+        <section class="content-section" id="features">
+            <h2 class="content-title">Можливості</h2>
+            <p class="content-text">Навігація складається з вкладених маркованих списків. Підменю приховані за допомогою <code>visibility</code> та <code>opacity</code>, тому вони не впливають на розташування інших елементів, а за наведення курсору плавно з'являються.</p>
+            <p class="content-text">Третій рівень меню відкривається збоку від другого: для цього підменю отримує <code>position: absolute</code> із зсувом <code>left: 100%</code> відносно пункту-батька.</p>
+        </section>
+        <section class="content-section" id="pricing">
+            <h2 class="content-title">Ціни</h2>
+            <p class="content-text">Пункт «Пошта» має два рівні вкладеності, а пункт «Обліковий запис», який вирівняно праворуч через <code>float: right</code>, відкриває підменю вліво, щоб воно не виходило за межі вікна браузера.</p>
+            <p class="content-text">Поточний пункт меню виділено кольором, а при наведенні курсору вигляд пункту змінюється за допомогою псевдокласу <code>:hover</code>.</p>
+        </section>
+        <section class="content-section" id="contacts">
+            <h2 class="content-title">Контакти</h2>
+            <p class="content-text">Додатковий текст, щоб сторінка була достатньо довгою для перевірки фіксованої та «липкої» панелей навігації під час прокручування.</p>
+            <p class="content-text">Додатковий текст, щоб сторінка була достатньо довгою для перевірки фіксованої та «липкої» панелей навігації під час прокручування.</p>
+            <p class="content-text">Додатковий текст, щоб сторінка була достатньо довгою для перевірки фіксованої та «липкої» панелей навігації під час прокручування.</p>
+        </section>
+    </main>
+</body>
+</html>
